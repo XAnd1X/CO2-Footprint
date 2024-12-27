@@ -1,0 +1,87 @@
+[
+    {
+        "Land": "Saudi-Arabien",
+        "Unternehmen": "Saudi Aramco",
+        "CO2-Ausstoß": 1951
+    },
+    {
+        "Land": "Russland",
+        "Unternehmen": "Gazprom",
+        "CO2-Ausstoß": 1138
+    },
+    {
+        "Land": "Iran",
+        "Unternehmen": "National Iranian Oil Company",
+        "CO2-Ausstoß": 1036
+    },
+    {
+        "Land": "Indien",
+        "Unternehmen": "Coal India",
+        "CO2-Ausstoß": 1025
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "China Shenhua Energy",
+        "CO2-Ausstoß": 1001
+    },
+    {
+        "Land": "Russland",
+        "Unternehmen": "Rosneft",
+        "CO2-Ausstoß": 777
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "China National Petroleum Corporation",
+        "CO2-Ausstoß": 625
+    },
+    {
+        "Land": "Vereinigte Arabische Emirate",
+        "Unternehmen": "Abu Dhabi National Oil Company",
+        "CO2-Ausstoß": 584
+    },
+    {
+        "Land": "Vereinigte Staaten",
+        "Unternehmen": "ExxonMobil",
+        "CO2-Ausstoß": 577
+    },
+    {
+        "Land": "Mexiko",
+        "Unternehmen": "PEMEX",
+        "CO2-Ausstoß": 530
+    },
+    {
+        "Land": "Niederlande",
+        "Unternehmen": "Royal Dutch Shell",
+        "CO2-Ausstoß": 508
+    },
+    {
+        "Land": "Algerien",
+        "Unternehmen": "Sonatrach",
+        "CO2-Ausstoß": 476
+    },
+    {
+        "Land": "Kuwait",
+        "Unternehmen": "Kuwait Petroleum Corporation",
+        "CO2-Ausstoß": 448
+    },
+    {
+        "Land": "Vereinigtes Königreich",
+        "Unternehmen": "BP",
+        "CO2-Ausstoß": 448
+    },
+    {
+        "Land": "Katar",
+        "Unternehmen": "Qatar Petroleum",
+        "CO2-Ausstoß": 413
+    },
+    {
+        "Land": "Venezuela",
+        "Unternehmen": "Petróleos de Venezuela",
+        "CO2-Ausstoß": 407
+    },
+    {
+        "Land": "Vereinigte Staaten",
+        "Unternehmen": "Peabody Energy",
+        "CO2-Ausstoß": 397
+    }
+]
