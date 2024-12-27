@@ -50,19 +50,19 @@
         "CO2-Ausstoß": 530
     },
     {
-        "Land": "Niederlande",
+        "Land": "Niederlande/Vereinigtes Königreich",
         "Unternehmen": "Royal Dutch Shell",
         "CO2-Ausstoß": 508
     },
     {
         "Land": "Algerien",
         "Unternehmen": "Sonatrach",
-        "CO2-Ausstoß": 476
+        "CO2-Ausstoß": 492
     },
     {
         "Land": "Kuwait",
         "Unternehmen": "Kuwait Petroleum Corporation",
-        "CO2-Ausstoß": 448
+        "CO2-Ausstoß": 478
     },
     {
         "Land": "Vereinigtes Königreich",
@@ -72,16 +72,181 @@
     {
         "Land": "Katar",
         "Unternehmen": "Qatar Petroleum",
-        "CO2-Ausstoß": 413
+        "CO2-Ausstoß": 414
     },
     {
         "Land": "Venezuela",
         "Unternehmen": "Petróleos de Venezuela",
-        "CO2-Ausstoß": 407
+        "CO2-Ausstoß": 398
     },
     {
         "Land": "Vereinigte Staaten",
         "Unternehmen": "Peabody Energy",
         "CO2-Ausstoß": 397
+    },
+    {
+        "Land": "Irak",
+        "Unternehmen": "Iraq National Oil Company",
+        "CO2-Ausstoß": 391
+    },
+    {
+        "Land": "Brasilien",
+        "Unternehmen": "Petrobras",
+        "CO2-Ausstoß": 382
+    },
+    {
+        "Land": "Vereinigte Staaten",
+        "Unternehmen": "Chevron Corporation",
+        "CO2-Ausstoß": 377
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Datong Coal Mining",
+        "CO2-Ausstoß": 365
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "China National Coal",
+        "CO2-Ausstoß": 350
+    },
+    {
+        "Land": "Malaysia",
+        "Unternehmen": "Petronas",
+        "CO2-Ausstoß": 340
+    },
+    {
+        "Land": "Nigeria",
+        "Unternehmen": "Nigerian National Petroleum Corporation",
+        "CO2-Ausstoß": 329
+    },
+    {
+        "Land": "Russland",
+        "Unternehmen": "Lukoil",
+        "CO2-Ausstoß": 328
+    },
+    {
+        "Land": "Schweiz",
+        "Unternehmen": "Glencore",
+        "CO2-Ausstoß": 322
+    },
+    {
+        "Land": "Australien/Vereinigtes Königreich",
+        "Unternehmen": "BHP Group",
+        "CO2-Ausstoß": 317
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Shanxi Coking Coal",
+        "CO2-Ausstoß": 317
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Shandong Energy",
+        "CO2-Ausstoß": 314
+    },
+    {
+        "Land": "Frankreich",
+        "Unternehmen": "Total",
+        "CO2-Ausstoß": 311
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Shaanxi Coal and Chemical Industry",
+        "CO2-Ausstoß": 296
+    },
+    {
+        "Land": "Polen",
+        "Unternehmen": "Kohleunternehmen (Polen)",
+        "CO2-Ausstoß": 291
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Yankuang Group",
+        "CO2-Ausstoß": 256
+    },
+    {
+        "Land": "Vereinigte Staaten",
+        "Unternehmen": "Arch Coal",
+        "CO2-Ausstoß": 232
+    },
+    {
+        "Land": "Italien",
+        "Unternehmen": "Eni",
+        "CO2-Ausstoß": 231
+    },
+    {
+        "Land": "Norwegen",
+        "Unternehmen": "Equinor",
+        "CO2-Ausstoß": 231
+    },
+    {
+        "Land": "Turkmenistan",
+        "Unternehmen": "Türkmengaz",
+        "CO2-Ausstoß": 230
+    },
+    {
+        "Land": "Vereinigte Staaten",
+        "Unternehmen": "ConocoPhillips",
+        "CO2-Ausstoß": 224
+    },
+    {
+        "Land": "Kasachstan",
+        "Unternehmen": "Kohleunternehmen (Kasachstan)",
+        "CO2-Ausstoß": 222
+    },
+    {
+        "Land": "Russland",
+        "Unternehmen": "SUEK",
+        "CO2-Ausstoß": 218
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Henan Energy and Chemical Industry",
+        "CO2-Ausstoß": 215
+    },
+    {
+        "Land": "Vereinigtes Königreich",
+        "Unternehmen": "Anglo American",
+        "CO2-Ausstoß": 215
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Jizhong Energy",
+        "CO2-Ausstoß": 213
+    },
+    {
+        "Land": "Russland",
+        "Unternehmen": "Surgutneftegas",
+        "CO2-Ausstoß": 212
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Shanxi Jincheng Anthracite Coal Mining",
+        "CO2-Ausstoß": 204
+    },
+    {
+        "Land": "Indonesien",
+        "Unternehmen": "Bumi Resources",
+        "CO2-Ausstoß": 200
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Sinopec",
+        "CO2-Ausstoß": 197
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Kailuan Group",
+        "CO2-Ausstoß": 192
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "China National Offshore Oil",
+        "CO2-Ausstoß": 187
+    },
+    {
+        "Land": "Volksrepublik China",
+        "Unternehmen": "Shanxi Lu’an Mining",
+        "CO2-Ausstoß": 181
     }
 ]
