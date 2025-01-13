@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <title>Über uns</title>
-  <!----------------------- Start: Verweis auf Google Font ------------------------>
-  <div id="links"></div>
-  <!----------------------- Ende: Verweis auf Google Font ------------------------->
+    <!----------------------- Start: Verweis auf Google Font ------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+    rel="stylesheet"
+    />
+    <!----------------------- Ende: Verweis auf Google Font ------------------------->
   <!------------------------------------- Bootstrap CSS ----------------------------->
   <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -16,11 +20,85 @@
   crossorigin="anonymous"
   />
   <!--------------------------------------------------------------------------------->
+  <!------------------------------------ Eigene CSS --------------------------------->
+  <link rel="stylesheet" href="/css/styles.css" />
+  <!--------------------------------------------------------------------------------->
 </head>
 <body class="bg-dark text-white d-flex flex-column min-vh-100">
-    <!--------------------------------- Start: Header ---------------------------------->
-    <div id="header" class="sticky-top"></div>
-    <!--------------------------------- Ende: Header ---------------------------------->
+  <!-- Start Header: Bootstrap Navigation: https://getbootstrap.com/docs/5.3/components/navbar/-->
+  <nav id="header" class="navbar navbar-dark navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="/images/logo7.png"
+          height="60"
+          alt="Logo CO₂-Footprint"
+          class="navbar-brand"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-3 me-2 mb-lg-0"> 
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="index.html"
+              >Hauptseite</a
+            >
+          </li> 
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="about.html"
+              >Über uns</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="contact.html"
+              >Kontakt</a
+            >
+          </li>
+          <li class="nav-item d-lg-none">
+            <hr class="nav-divider" />
+          </li>
+          <li class="nav-item d-lg-none">
+            <a
+              class="nav-link"
+              href="index.html#welcome"
+              >Willkommen</a
+            >
+          </li>
+          <li class="nav-item d-lg-none">
+            <a
+              class="nav-link"
+              href="index.html#table"
+              >CO₂-Daten</a
+            >
+          </li>
+          <li class="nav-item d-lg-none">
+            <a
+              class="nav-link"
+              href="index.html#faqs"
+              >FAQs</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--------------------------------- Ende: Header ---------------------------------->
     
     <!--------------------------------- Start: Hauptteil ---------------------------------->
     <main class="container my-5">
@@ -30,7 +108,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-2 g-4">
             <div class="col d-flex justify-content-center">
               <div class="card h-100 w-75 bg-dark text-white">
-                <img src="images/team1.png" class="card-img-top" alt="...">
+                <img src="/images/team1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title text-success">Hermine Granger</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde tempore rem deleniti provident veniam voluptatibus! Tempora cupiditate, atque vel fugiat illo nostrum nobis officia!</p>
@@ -39,7 +117,7 @@
             </div>
             <div class="col d-flex justify-content-center">
               <div class="card h-100 w-75 bg-dark text-white">
-                <img src="images/team2.png" class="card-img-top" alt="...">
+                <img src="/images/team2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-success">Peter Parker</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio consequuntur recusandae quia in. Perferendis rem aspernatur aut, iusto voluptatum reiciendis aliquam dolorum qui tempore.</p>
@@ -48,7 +126,7 @@
             </div>
             <div class="col d-flex justify-content-center">
               <div class="card h-100 w-75 bg-dark text-white">
-                <img src="images/team3.png" class="card-img-top" alt="...">
+                <img src="/images/team3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-success">Skyler White</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde tempore rem deleniti provident veniam voluptatibus! Tempora cupiditate, atque vel fugiat illo nostrum nobis officia!</p>
@@ -57,7 +135,7 @@
             </div>
             <div class="col d-flex justify-content-center">
               <div class="card h-100 w-75 bg-dark text-white">
-                <img src="images/team4.png" class="card-img-top" alt="...">
+                <img src="/images/team4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-success">Walter White Jr.</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam iure, quisquam libero dolorem veritatis eveniet eum ratione reiciendis, omnis excepturi, laudantium repellendus vero illo sint.</p>
@@ -66,7 +144,7 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card h-100 w-75 bg-dark text-white">
-                  <img src="images/team5.png" class="card-img-top" alt="...">
+                  <img src="/images/team5.png" class="card-img-top" alt="...">
                   <div class="card-body">
                       <h5 class="card-title text-success">Jesse Pinkman</h5>
                       <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis qui laboriosam aspernatur optio architecto laudantium voluptates dignissimos voluptatem, iusto magni doloremque ab esse aliquam.</p>
@@ -75,7 +153,7 @@
               </div>
               <div class="col d-flex justify-content-center">
                 <div class="card h-100 w-75 bg-dark text-white">
-                  <img src="images/team6.png" class="card-img-top" alt="...">
+                  <img src="/images/team6.png" class="card-img-top" alt="...">
                   <div class="card-body">
                       <h5 class="card-title text-success">Jaime Lennister</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo sequi exercitationem itaque libero laboriosam explicabo totam. Sunt at quasi omnis vel culpa fuga dolorem.</p>
@@ -87,9 +165,17 @@
         </main>
     <!--------------------------------- Ende: Hauptteil ---------------------------------->
 
-    <!--------------------------------- Start: Footer ---------------------------------->
-    <div id="footer" class="mt-auto"></div>
-    <!--------------------------------- Ende: Footer ---------------------------------->
+        <!------------------------------------ Start Footer ------------------------------->
+        <footer class="text-center py-3 mt-auto">
+          <p class="mb-0">
+            © 2024 CO<sub>2</sub>-Footprint-Monitoring |
+            <a href="privacy.html" class="text-white">Datenschutz</a
+            >
+            |
+            <a href="imprint.html" class="text-white">Impressum</a>
+          </p>
+        </footer>
+        <!------------------------------------- Ende: Footer ------------------------------->
 
     <!------------------------------------- Bootstrap JS ----------------------------->
     <script

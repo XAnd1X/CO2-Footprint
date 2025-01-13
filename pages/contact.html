@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
     <title>Über uns</title>
     <!----------------------- Start: Verweis auf Google Font ------------------------>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+    rel="stylesheet"
+    />
     <!----------------------- Ende: Verweis auf Google Font ------------------------->
 
     <!------------------------------------- Bootstrap CSS ----------------------------->
@@ -17,12 +21,86 @@
       crossorigin="anonymous"
     />
     <!--------------------------------------------------------------------------------->
+    <!------------------------------------ Eigene CSS --------------------------------->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!--------------------------------------------------------------------------------->
 
 </head>
 <body class="bg-dark text-white d-flex flex-column min-vh-100">
-    <!--------------------------------- Start: Header ---------------------------------->
-    <div id="header" class="sticky-top"></div>
-    <!--------------------------------- Ende: Header ---------------------------------->
+    <!-- Start Header: Bootstrap Navigation: https://getbootstrap.com/docs/5.3/components/navbar/-->
+    <nav id="header" class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img
+                src="/images/logo7.png"
+                height="60"
+                alt="Logo CO₂-Footprint"
+                class="navbar-brand"
+                />
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-3 me-2 mb-lg-0">
+                <li class="nav-item">
+                    <a
+                    class="nav-link"
+                    href="index.html"
+                    >Hauptseite</a
+                    >
+                </li> 
+                <li class="nav-item">
+                    <a
+                    class="nav-link"
+                    href="about.html"
+                    >Über uns</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a
+                    class="nav-link"
+                    href="contact.html"
+                    >Kontakt</a
+                    >
+                </li>
+                <li class="nav-item d-lg-none">
+                    <hr class="nav-divider" />
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a
+                    class="nav-link"
+                    href="index.html#welcome"
+                    >Willkommen</a
+                    >
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a
+                    class="nav-link"
+                    href="index.html#table"
+                    >CO₂-Daten</a
+                    >
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a
+                    class="nav-link"
+                    href="index.html#faqs"
+                    >FAQs</a
+                    >
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <!--------------------------------- Ende: Header ---------------------------------->
 
     <!--------------------------------- Start: Hauptteil ---------------------------------->
     <main class="container my-5">
@@ -100,9 +178,17 @@
     </main>
     <!--------------------------------- Ende: Hauptteil ---------------------------------->
 
-    <!--------------------------------- Start: Footer ---------------------------------->
-    <div id="footer" class="mt-auto"></div>
-    <!--------------------------------- Ende: Footer ---------------------------------->
+        <!------------------------------------ Start Footer ------------------------------->
+        <footer class="text-center py-3 mt-auto">
+            <p class="mb-0">
+              © 2024 CO<sub>2</sub>-Footprint-Monitoring |
+              <a href="privacy.html" class="text-white">Datenschutz</a
+              >
+              |
+              <a href="imprint.html" class="text-white">Impressum</a>
+            </p>
+          </footer>
+          <!------------------------------------- Ende: Footer ------------------------------->
 
     <!------------------------------------- Bootstrap JS ----------------------------->
     <script
