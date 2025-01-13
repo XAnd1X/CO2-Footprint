@@ -1,0 +1,75 @@
+#header{
+    background-color: #161616;
+}
+
+body{
+    font-family : "Varela Round";
+}
+
+.carousel-image{
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar, .carousel{
+    border-bottom: 1px solid #3b3a3e;
+    font-size: 1.3rem;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid #3b3a3e;
+    position: relative;
+    background-color: #1c1c1c;
+    width: 100%; /* Stellt sicher, dass der Footer die volle Breite hat */
+    margin: 0;
+    padding: 10px 0; /* Optional: Abstand für besseren Look */
+}
+
+#sticky-sidebar {
+    height: calc(100vh - 87px);  /* Volle Höhe des Viewports abzüglich der Header-Höhe */
+    position: sticky;
+    top: 87px; /* Höhe des Headers */
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#welcome, #table, #faqs {
+    scroll-margin-top: 95px; /* Höhe des Headers beim springen auf Content berücksichtigen */
+}
+
+#co2Table tfoot input {
+    background-color: hsla(210, 10%, 23%, 0) ; /* transparent */
+    border: 1px solid #3b3a3e;
+    color: white;
+}
+
+/* Dropdown Tabelle (Auswahl Anzahl Zeilen) */
+#dt-length-0{
+    margin-right: 5px;
+    background-color: #212529;
+}
+
+/* Eigene Schrifgröße Sidebar */
+@media (max-width: 1400px) { 
+    .fs-7 { font-size: 0.90rem; }
+}
+@media (max-width: 1200px) { 
+    .fs-7 { font-size: 0.75rem; }
+}
+
+/* Exakten Abstand bei LTR/RTL Button einstellen */
+#textRTL{
+    transform: translateX(-4px);
+}
+
+/* Farbe LTR/RTL Button einstellen */
+#switchButton:checked {
+    background-color: #c90449;
+    border-color: #c90449;
+}
+/* Schatteneffekt LTR/RTL Button ausschalten*/
+#switchButton:focus {
+    box-shadow: none; 
+}

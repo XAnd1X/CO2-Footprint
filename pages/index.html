@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body class="bg-dark text-white" id="text">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CO₂-Footprint</title>
+    <!----------------------- Start: Verweis auf Google Font ------------------------>
+    <!----------------------- Google Font: Varela Round Static ------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+    rel="stylesheet"
+  />
+  <!--------------------------------------------------------------------------------->
+    <!----------------------- Ende: Verweis auf Google Font ------------------------->
+    <!------------------------------------- Bootstrap CSS ----------------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--------------------------------------------------------------------------------->
+    <!------------------------------------ Eigene CSS --------------------------------->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!--------------------------------------------------------------------------------->
+  
+  </head>
+  <body class="bg-dark text-white">
+    <!--------------------------------- Start: Header ---------------------------------->
+    <!-- Start Header: Bootstrap Navigation: https://getbootstrap.com/docs/5.3/components/navbar/-->
+    <nav id="header" class="navbar navbar-dark navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="/images/logo7.png"
+            height="60"
+            alt="Logo CO₂-Footprint"
+            class="navbar-brand"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-3 me-2 mb-lg-0">
+            <!-- Start: Toggle Switch -->
+            <form class="switch-button-container d-none d-lg-flex align-items-center pe-1 my-3 my-lg-0">
+              <p class="fs-6 text-white pe-2 mb-0" id="textLTR">LTR</p>
+              <div class="form-check form-switch">
+                <input 
+                  class="form-check-input" 
+                  type="checkbox" 
+                  role="switch" 
+                  id="switchButton"
+                  onclick="changeSidebarDirection()">
+              </div>
+              <p class="fs-6 text-secondary ms-0 mb-0 pe-1 me-n5" id="textRTL">RTL</p>
+            </form>
+            <!-- Ende: Toggle Switch -->  
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html"
+                >Hauptseite</a
+              >
+            </li> 
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html"
+                >Über uns</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                >Kontakt</a
+              >
+            </li>
+            <li class="nav-item d-lg-none">
+              <hr class="nav-divider" />
+            </li>
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                href="index.html#welcome"
+                >Willkommen</a
+              >
+            </li>
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                href="index.html#table"
+                >CO₂-Daten</a
+              >
+            </li>
+            <li class="nav-item d-lg-none">
+              <a
+                class="nav-link"
+                href="index.html#faqs"
+                >FAQs</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------ Ende Header ---------------------------------------------->
+    <!--------------------------------- Ende: Header ---------------------------------->
+    <!--------------------------------- Start Hauptteil ---------------------------------->
+    <div
+      class="container-fluid"
+    >
+      <div class="row" id="flex-sidebar">
+        <!--------------------------- Start Sidebar ------------------------------->
+        <nav 
+          id="sticky-sidebar"
+          class="navbar navbar-dark d-none d-lg-flex col-lg-1 bg-dark flex-column"
+        >
+          <ul class="navbar-nav" id="text-sidebar">
+            <li class="nav-item">
+              <a class="nav-link" href="#welcome"><h6 class="fs-7">Willkommen</h6></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#table"><h6 class="fs-7">CO<sub>2</sub>-Daten</h6></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faqs"><h6 class="fs-7">FAQs</h6></a>
+            </li>
+          </ul>
+        </nav>
+        <!--------------------------- Ende: Sidebar ------------------------------->
+        <div class="col-12 col-lg-10 ">
+          <!-- Start: Bootstrap Carousel Indicators: https://getbootstrap.com/docs/5.3/components/carousel/ -->
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  style="background-image: url('/images/forest.jpg')"
+                  class="carousel-image"
+                ></div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  style="background-image: url('/images/footprint_white.jpg')"
+                  class="carousel-image"
+                ></div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  style="background-image: url('/images/forest_dark.jpg')"
+                  class="carousel-image"
+                ></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--------------------------------- Ende: Bootstrap Carousel --------------------------------------->
+
+          <!---------------------------------------- Start: Willkommen -------------------------------------->
+          <div id="welcome" class="container mt-5 ps-0">
+            <h1 class="text-success">
+              Willkommen auf der Homepage vom CO<sub>2</sub>-Footprint-Monitoring
+            </h1>
+            <h4>
+              Wir sind eine Non-Profit-Organisation, die den Klimawandel ernst
+              nimmt!
+            </h4>
+            <h4>
+              Hier bekommst du einen Einblick in die CO<sub>2</sub>-Emissionen der größten
+              Unternehmen weltweit:
+            </h4>
+          </div>
+          <!---------------------------------------- Ende Willkomen ----------------------------------------->
+
+          <!---------------------------------------- Start CO2-Daten -------------------------------------->
+          <div id="table" class="container mt-5 ps-0">
+            <h1 class="text-success">CO<sub>2</sub>-Daten</h1>
+            <div class="table-responsive">
+              <table id="co2Table" class="stripe" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Land</th>
+                        <th>Unternehmen</th>
+                        <th>CO2-Ausstoß</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                      <th>Land</th>
+                      <th>Unternehmen</th>
+                      <th>CO2-Ausstoß</th>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+          </div>
+          <!---------------------------------------- Ende: CO2-Daten ----------------------------------------->
+
+          <!--Start FAQs: Bootstrap Accordion Flush: https://getbootstrap.com/docs/5.3/components/accordion/ -->
+          <div id="faqs" class="container mt-5 ps-0">
+            <h1 class="text-success">FAQs</h1>
+          </div>
+          <div
+            class="container accordion accordion bg-dark ps-0 pb-3"
+            id="accordionFlushExample"
+          >
+            <div
+              class="accordion-item border-top-0 border-start-0 border-end-0 border-dark"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed bg-success text-white shadow-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                  earum?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+                  saepe eveniet minima omnis eum temporibus harum reiciendis
+                  aperiam blanditiis, neque totam esse corrupti veritatis
+                  asperiores illum consequuntur dolorem quidem expedita vero
+                  quos sequi. Nihil reiciendis beatae quis, illum nostrum quia
+                  pariatur sint animi facilis totam voluptatem a nulla deleniti?
+                  Ex?
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item border-top-0 border-start-0 border-end-0 border-dark"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed bg-success text-white shadow-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, magni?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat quos consequuntur ullam consectetur reprehenderit
+                  accusantium doloribus, soluta sapiente eveniet omnis molestias
+                  possimus inventore architecto cum fugiat quasi vel culpa
+                  recusandae eos. Dolorum itaque laboriosam totam id sed.
+                  Mollitia aspernatur exercitationem inventore suscipit officiis
+                  maiores, sit, accusamus corporis sapiente id laboriosam.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item border-top-0 border-start-0 border-end-0 border-dark"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed bg-success text-white shadow-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eveniet, quisquam?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body bg-dark text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nihil rerum nulla facilis eum minima porro, quis nesciunt
+                  obcaecati molestias libero quasi commodi repellendus, quam
+                  eaque. Amet fugiat, suscipit libero, officia a deserunt quasi
+                  vitae aut minima animi distinctio doloremque tempore
+                  accusantium sapiente ipsum ducimus? Beatae tenetur unde alias
+                  debitis quis?
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------ End FAQs ----------------------------------------->
+        </div>
+        <!------------------------------------ Start Footer ------------------------------->
+        <div class="col-12 px-0">
+                  <!------------------------------------ Start Footer ------------------------------->
+        <footer class="text-center py-3">
+          <p class="mb-0">
+            © 2024 CO<sub>2</sub>-Footprint-Monitoring |
+            <a href="privacy.html" class="text-white">Datenschutz</a
+            >
+            |
+            <a href="imprint.html" class="text-white">Impressum</a>
+          </p>
+      </footer>
+      <!------------------------------------- Ende: Footer ------------------------------->
+        </div>
+        <!------------------------------------- Ende: Footer ------------------------------->
+      </div>
+    </div>
+    <!------------------------------------ Ende: Hauptteil ------------------------------------>
+    <!------------------------------------- Start: Bootstrap JS ----------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--------------------------------------Ende: Bootstrap JS ------------------------------>
+    <!------------------------------------- Start: Framework DataTable ---------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <link href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" rel="stylesheet">
+    <!-------------------------------------- Ende: Framework DataTable ---------------------------->
+    <!------------------------------------- Start: Eigenes JavaScript ----------------------------->
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <!--------------------------------------- Ende: Eigenes JavaScript ------------------------------>
+  </body>
+</html>
