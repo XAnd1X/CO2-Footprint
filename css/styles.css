@@ -28,6 +28,10 @@ footer{
     padding: 10px 0; /* Optional: Abstand für besseren Look */
 }
 
+#pictureURL{
+    font-size: 0.75rem;
+}
+
 #sticky-sidebar {
     height: calc(100vh - 87px);  /* Volle Höhe des Viewports abzüglich der Header-Höhe */
     position: sticky;
