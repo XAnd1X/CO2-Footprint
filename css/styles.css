@@ -6,6 +6,7 @@ body{
     font-family : "Varela Round";
 }
 
+/* Einstellungen Slideshow */
 .carousel-image{
     width: 100vw;
     height: 70vh;
@@ -18,20 +19,23 @@ body{
     font-size: 1.3rem;
 }
 
+/* Einstellungen Footer */
 footer{
     text-align: center;
     border-top: 1px solid #3b3a3e;
     position: relative;
     background-color: #1c1c1c;
-    width: 100%; /* Stellt sicher, dass der Footer die volle Breite hat */
+    width: 100%; 
     margin: 0;
-    padding: 10px 0; /* Optional: Abstand für besseren Look */
+    padding: 10px 0; 
 }
 
+/* Einstellungen Footer Angaben zur Bilderquelle */
 #pictureURL{
     font-size: 0.75rem;
 }
 
+/* Einstellungen um Header und seitliches Menü fixiert zu halten */
 #sticky-sidebar {
     height: calc(100vh - 87px);  /* Volle Höhe des Viewports abzüglich der Header-Höhe */
     position: sticky;
@@ -39,10 +43,12 @@ footer{
     box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Höhe des Headers beim springen auf Content berücksichtigen */
 #welcome, #table, #faqs {
-    scroll-margin-top: 95px; /* Höhe des Headers beim springen auf Content berücksichtigen */
+    scroll-margin-top: 95px;
 }
 
+/* Einstellungen CO2-Tabelle */
 #co2Table tfoot input {
     background-color: hsla(210, 10%, 23%, 0) ; /* transparent */
     border: 1px solid #3b3a3e;
@@ -77,3 +83,8 @@ footer{
 #switchButton:focus {
     box-shadow: none; 
 }
+
+/* Switch-Button Mouseover-Effekt*/
+#switchButton {
+    cursor: pointer;
+  }

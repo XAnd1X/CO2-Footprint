@@ -31,7 +31,7 @@ new DataTable('#co2Table', {
                     if (column.search() !== quotedSearchFooterValue) {
                         column.search(quotedSearchFooterValue).draw();
                     }
-                    console.log(quotedSearchFooterValue);
+                    // console.log(quotedSearchFooterValue);
                 });
             });
 
@@ -40,7 +40,7 @@ new DataTable('#co2Table', {
             $('#dt-search-0').on('keyup', function () {
                 const quotedSearchValue = quoting($(this).val()); 
                 table.search(quotedSearchValue).draw();
-                console.log(quotedSearchValue);
+                // console.log(quotedSearchValue);
         });
     },  
     language: {
@@ -91,7 +91,7 @@ function quoting(str) {
     };
    
     return str.replace(/[&<>"'`=\/]/g, function(m) { return map[m]; });
-
+    
 }
 
 
